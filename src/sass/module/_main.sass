@@ -1,0 +1,40 @@
+#contenu
+    display: flex
+    flex-direction: column
+    width: 80%
+    margin: auto 10%
+
+    h1
+        align-self: center
+        position: relative
+        font-size: 50px
+        color: rgba(0, 0, 0, 0.750)
+        padding: 100px
+        margin-top: 0px
+        margin-bottom: 70px
+        &:before
+            content: ""
+            position: absolute
+            left: 43%
+            bottom: 0
+            height: 1px
+            width: 14%
+            border-bottom: 5px solid purple
+
+    h2
+        font-size: 50px
+        color: rgba(0, 0, 0, 0.750)
+
+    ul
+        li::before
+            content: "\2022"
+            color: rgba(104, 4, 104, 0.815)
+            font-weight: bold
+            font-size: 50px
+            display: inline-block
+            width: 1em
+            margin-left: 0
+
+    ul
+        list-style: none
+        padding-left: 20px

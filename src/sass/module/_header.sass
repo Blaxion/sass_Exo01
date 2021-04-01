@@ -1,0 +1,103 @@
+#newsletter
+    background-color: purple
+    height: 5vh
+    display: flex
+    align-items: center
+
+    .logo
+        display: inline-block
+    img
+        width: 50px
+    
+
+#champs_newsletter
+    width: 100%
+    justify-self: center
+
+    div
+        display: flex
+        align-items: center
+        justify-content: center
+
+        *
+            margin: 5px
+
+        span
+            color: rgba(255, 255, 255, 0.5)
+            font-size: 10px
+
+        input
+            border: none
+            border-radius: 3px
+
+        input::placeholder
+            color: rgb(221, 220, 220)
+            font-style: italic
+
+        button
+            border-radius: 3px
+            color: white
+            background-color: rgb(60, 214, 94)
+            border: none
+            text-transform: uppercase
+nav
+    display: inline-flex
+    width: 100%
+    justify-content: center
+    height: fit-content
+    border-bottom: solid 1px rgba(128, 128, 128, 0.26)
+
+    .logo
+        display: flex
+        height: 12vh
+        width: 17%
+        justify-content: left
+        align-items: center
+        height: 75px
+        margin-left: 40px
+
+        img
+            height: 100%
+
+
+.menu
+    display: flex
+    align-content: center
+    width: 100%
+
+    ul
+        list-style-type: none
+        display: inline-flex
+        align-items: center
+        justify-content: flex-start
+        width: 100%
+        padding-left: 0
+        margin: 0
+        border-left: solid 1px rgba(128, 128, 128, 0.26)
+
+        li
+            display: flex
+            align-items: center
+            justify-content: center
+            text-transform: uppercase
+            height: 100%
+
+            a
+                text-decoration: none
+                color: black
+                font-weight: bold
+                font-size: 12px
+
+        li:hover>a
+            border-bottom: solid 3px black
+
+        li:last-child
+            justify-self: flex-end
+            flex-grow: 2
+            text-align: center
+            border-left: solid 1px rgba(128, 128, 128, 0.26)
+
+        li:not(:last-child)
+            flex-grow: 1
+    .hamburger
+        display: none
